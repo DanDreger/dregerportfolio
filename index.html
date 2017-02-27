@@ -138,7 +138,7 @@
 		
 			<div class="container">
 			
-				<h1 class="section-title scrollimation scale-in"><span>STOCK</span>in trade<i class="fa fa-wrench"></i></h1>
+				<h1 class="section-title scrollimation scale-in"><span>STOCK</span>in trade</h1>
 				
 				<div class="row services scrollimation fade-left">
 					<div class="col-md-3 text-center">
@@ -199,7 +199,8 @@
 					<div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
 						<h1>Hi, I'm Sully</h1>
 						<p>My dad is a front-end web developer in <a href="https://goo.gl/maps/xWD2R" target="_blank">San Francisco, California</a>. He has a background in technology, public relations, and marketing, working with household brands like Samsung, Nikon, and Google. A <a href="http://www.codifyacademy.com/" target="_blank">Codify Academy</a> graduate, Dan has done freelance work for companies big and small. Need a company mascot? Contact Me! Need a front-end web developer? Write to Dan.<br><br>
-						<a href="#portfolio" class="btn btn-theme transparent scrollto">Check Out His Resume Here</a>
+
+						<a href="assets/DregerCodeResume.pdf" target="_blank" class="btn btn-theme transparent"> Check Out His Resume Here</a>
 					</div>
 				</div><!--End row -->
 				
@@ -328,11 +329,11 @@
 
 						<a class="project-item icons" href="#somelink" data-images="assets/liquidscreenshot.jpg">
 						
-						<img class="img-responsive project-image" src="assets/projects/hamburger.jpg"  alt="Hamburger drop down menu"><!--Project thumb -->
+						<img class="img-responsive project-image" src="assets/projects/javaClock.jpg"  alt="javaScript Alarm Clock"><!--Project thumb -->
 						
 						<div class="hover-mask">
-							<h2 class="project-title">Drop-Down Menu</h2><!--Project Title -->
-							<p>Hamburger Drop-Down Menu built with jQuery and Bootstrap</p><!--Project Subtitle -->
+							<h2 class="project-title">JavaScript Alarm Clock</h2><!--Project Title -->
+							<p>Simple getTime() function built into image of an alarm clock</p><!--Project Subtitle -->
 						</div>
 						
 						<!--==== Project Preview HTML ====-->
@@ -354,7 +355,7 @@
 						
 					</a><!--End Project Item -->
 
-					<a class="project-item web-design" href="http://www.google.com" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
+					<a class="project-item icons" href="http://www.google.com" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
 						
 						<img class="img-responsive project-image" src="assets/projects/todolist.jpg"  alt="To-Do List Application"><!--Project thumb -->
 						
@@ -445,54 +446,18 @@
 				
 				<div class="row">
 				
-					<div class="col-sm-5 contact-info scrollimation fade-right">
-
-						
-						<address>
-							Dan Dreger<br>
-							Mill Valley, CA<br>
-							DanJDreger@gmail.com
-						</address>
+					<div class="col-md-12 contact-info scrollimation fade-right">
 						
 						<ul class="socials">
-							<li><a href="https://twitter.com/wunce" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.facebook.com/dan.dreger.1" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="https://codepen.io/qwawer/" target="_blank"><i class="fa fa-codepen"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/dan-dreger-b0515718?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://goo.gl/maps/R33UueJTHc62" target="_blank"><i class="fa fa-compass fa-3x"></i></a></li>
+							<li><a href="mailto:danjdreger@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"></i></a></li>
+							<li><a href="https://twitter.com/wunce" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+							<li><a href="https://codepen.io/qwawer/" target="_blank"><i class="fa fa-codepen fa-3x"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/dan-dreger-b0515718?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+							<li><a href="https://www.facebook.com/dan.dreger.1" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
 						</ul>
 						
 					</div>
-				  
-					<form id="contact-form" class="col-sm-7 scrollimation fade-left" action="contact.php" method="post" novalidate>
-						
-						<div class="form-group">
-						  <label class="control-label" for="contact-name">Name</label>
-						  <div class="controls">
-							<i class="fa fa-user"></i>
-							<input id="contact-name" name="contactName" placeholder="My name is..." class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name">
-						  </div>
-						</div><!-- End name input -->
-						
-						<div class="form-group">
-						  <label class="control-label" for="contact-mail">Email</label>
-						  <div class=" controls">
-							<i class="fa fa-envelope"></i>
-							<input id="contact-mail" name="email" placeholder="Please respond at..." class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
-						  </div>
-						</div><!-- End email input -->
-						
-						<div class="form-group">
-						  <label class="control-label" for="contact-message">Message</label>
-							<div class="controls">
-								<i class="fa fa-comment"></i>
-								<textarea id="contact-message" name="comments"  placeholder="I wanna talk about..." class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message"></textarea>
-							</div>
-						</div><!-- End textarea -->
-						
-						<p><button name="submit" type="submit" class="btn btn-theme btn-lg" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
-						<input type="hidden" name="submitted" id="submitted" value="true" />
-						
-					</form><!-- End contact-form -->
 				  
 				</div><!-- End row -->
 				

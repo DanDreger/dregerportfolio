@@ -642,6 +642,14 @@ header.jumbotron{
     border-bottom:1px solid #ddd;
 }
 
+#portfolio h6 {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 2em;
+
+}
+
 
 #filter-works ul {
     list-style:none;
@@ -1657,4 +1665,3 @@ p {
 }
 
 
-}

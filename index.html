@@ -264,8 +264,6 @@
 						</li>
 					</ul>
 				</div><!--End portfolio filters -->
-
-		<h6 id="projectNote">Right-Click on a project and open it in a new window to view full-screen funtionality</h6>
 				
 			</div><!--End portfolio header -->
 
@@ -281,17 +279,44 @@
 					SINGLE PROJECT ITEM
 					=============================================== -->	
 
-					<a class="project-item web-design" class="project-item icons ui-kits" href="http://www.dandreger.com/musicfinder/index.html" target="_blank" data-images="assets/projects/project-slide.jpg">
+					<a class="project-item icons ui-kits" href="horoscope/index.html" data-images="assets/projects/project-slide.jpg">
+						
+						<img class="img-responsive project-image" src="assets/projects/horoscopeplaceholder.jpg" alt=""><!--Project thumb -->
+						
+						<div class="hover-mask" onclick="horoscope()">
+							<h2 class="project-title">Horoscope Applicaton</h2><!--Project Title -->
+							<p>javaScript application which accepts user birthday, assigns astrological sign, and delivers current horriscope.</p><!--Project Subtitle -->
+						</div>
+					</a><!--End Project Item -->
+					
+				<!-- 	begin project item -->
+
+					<a class="project-item icons ui-kits" href="colorfulflat/index.html" data-images="assets/projects/project-slide.jpg">
+
+						<img class="img-responsive project-image" src="assets/projects/modernFlat.jpg"  alt="Baseball Quiz"><!--Project thumb -->
+						
+						<div class="hover-mask" onclick="bootstrap()">
+							<h2 class="project-title">Bootstrap Project</h2><!--Project Title -->
+							<p>Modern, Flat Design Project Using Bootstrap</p><!--Project Subtitle -->
+						</div>
+					</a>
+
+						<a class="project-item web-design" href="jengrenz/index.html" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
+						
+						<img class="img-responsive project-image" src="assets/projects/grenzscreenshot.jpg" alt="image of jennifergrenz.com"><!--Project thumb -->
+						
+						<div class="hover-mask" onclick="jenniferGrenz()">
+							<h2 class="project-title">JenniferGrenz.com</h2><!--Project Title -->
+							<p>A portfolio showcasing the work of one of Silion Valley's fastest rising marketers</p><!--Project Subtitle -->
+						</div>
+						
+						<a class="project-item web-design" class="project-item icons ui-kits" href="http://www.dandreger.com/musicfinder/index.html" target="_blank" data-images="assets/projects/project-slide.jpg">
 						
 					<img class="img-responsive project-image" src="assets/projects/music.jpg" alt="screen shot of music project"><!--Project thumb -->
 					
 
 
-
-
-
-					
-					<div class="hover-mask">
+					<div class="hover-mask" onclick="musicFinder()">
 						<h2 class="project-title">Music Finder</h2><!--Project Title -->
 						<p>Music Finder App Using iTunes API. Input a genre, artist, or song and the app will populate with songs and an audio player to preview! </p><!--Project Subtitle -->
 					</div>
@@ -300,7 +325,7 @@
 					
 					<img class="img-responsive project-image" src="assets/projects/baseball.jpg" alt="screenshot of ecommerce project"><!--Project thumb -->
 					
-					<div class="hover-mask">
+					<div class="hover-mask" onclick="eCommerce()">
 						<h2 class="project-title">eCommerce Site</h2><!--Project Title -->
 						<p>eCommerce mockup using bootstrap. Excample of how a memorabilia company could display autographed baseballs on their site.</p><!--Project Subtitle -->
 					</div>
@@ -309,55 +334,11 @@
 					
 					<img class="img-responsive project-image" src="assets/projects/gbooks.jpg" alt="Google Books Application Screenshot"><!--Project thumb -->
 					
-					<div class="hover-mask">
+					<div class="hover-mask" onclick="googleBooks()">
 						<h2 class="project-title">GoogleBooks Application</h2><!--Project Title -->
 						<p>Book Finder App using GoogleBooks API. Promps a user input for a book, author or genre and populates with books from the API.</p><!--Project Subtitle -->
 					</div>
 
-
-					<a class="project-item icons ui-kits" href="horoscope/index.html" data-images="assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/horoscopeplaceholder.jpg" alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Horoscope Applicaton</h2><!--Project Title -->
-							<p>javaScript application which accepts user birthday, assigns astrological sign, and delivers current horriscope.</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						
-						
-					</a><!--End Project Item -->
-
-
-
-					<a class="project-item icons ui-kits" href="quiz/index.html" data-images="assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/quiz.jpg"  alt="Baseball Quiz"><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Codepen Baseball Quiz</h2><!--Project Title -->
-							<p>Test your baseball knowledge with my quiz, built with JS</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						
-						
-					</a><!--End Project Item -->
-
-						<a class="project-item web-design" href="jengrenz/index.html" data-images="assets/projects/project-slide.jpg,assets/projects/project-slide.jpg">
-						
-						<img class="img-responsive project-image" src="assets/projects/grenzscreenshot.jpg" alt="image of jennifergrenz.com"><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">JenniferGrenz.com</h2><!--Project Title -->
-							<p>A portfolio showcasing the work of one of Silion Valley's fastest rising marketers</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
 					
 						
 						</a>
@@ -367,7 +348,7 @@
 						
 						<img class="img-responsive project-image" src="assets/projects/javaClock.jpg"  alt="javaScript Alarm Clock"><!--Project thumb -->
 						
-						<div class="hover-mask">
+						<div class="hover-mask" onclick="alarmClock()">
 							<h2 class="project-title">JavaScript Alarm Clock</h2><!--Project Title -->
 							<p>Simple getTime() function built into image of an alarm clock</p><!--Project Subtitle -->
 						</div>
@@ -381,7 +362,7 @@
 						
 						<img class="img-responsive project-image" src="assets/projects/metroscreenshot.jpg"  alt=""><!--Project thumb -->
 						
-						<div class="hover-mask">
+						<div class="hover-mask" onclick="metro()">
 							<h2 class="project-title">Metro</h2><!--Project Title -->
 							<p>Fully responsive site, built with Bootstrap, HTML5 and CSS3</p><!--Project Subtitle -->
 						</div>
@@ -395,7 +376,7 @@
 						
 						<img class="img-responsive project-image" src="assets/projects/todolist.jpg"  alt="To-Do List Application"><!--Project thumb -->
 						
-						<div class="hover-mask">
+						<div class="hover-mask" onclick="toDoList()">
 							<h2 class="project-title">To-Do List Application</h2><!--Project Title -->
 							<p>Application for building To-Do List using JavaScript</p><!--Project Subtitle -->
 						</div>
@@ -550,6 +531,7 @@
 		<script src="js/jquery.backstretch.min.js"></script>
 		<script src="js/contact.js"></script>
 		<script src="js/designr.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 	
 </html>
